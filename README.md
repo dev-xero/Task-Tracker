@@ -7,12 +7,12 @@ Keep your workflow organized with this free task tracking web app
 - Really easy to use
 - Fully customizable
 
-# Languages Used
+# 👨🏻‍💻 Languages Used
 
 - JavaScript / ES6
 - CSS 3
 - HTML 5
 
 # 😉 Credits
-Fonts: Youtube sans, sans serif
+Fonts: Youtube sans, sans serif <br/>
 Icons: Tabler icons
