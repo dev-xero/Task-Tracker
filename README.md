@@ -1,6 +1,6 @@
 ## 📝 Task-Tracker
-Keep your workflow organized with this free task tracking web app.
-Arrange, Create, Delete any task any time 😁. This project is free to use for whatever purpose
+Keep your workflow organized with this free task tracking web app. <br />
+Arrange, Create, Delete any task any time 😁, this project is free to use for whatever purpose
 
 # 🧠 Features
 - Fully offline
