@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Task Tracker</title>
+		<link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+		<meta name="description" content="Task tracking web app.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Icon Fonts -->
+		<link rel="stylesheet" href="./assets/icons/Tabler icons/tabler-icons.min.css">
+		<!-- Base Styles -->
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body class="dark">
+
+		<div class="credits-user">
+			<a href="https://www.github.com/codeninja-tech" target="_blank">
+				<i class="ti ti-brand-github"></i> 
+				Follow me on Github 😄
+			</a>
+		</div>
+
+		<div class="app-container">
+			<div class="inner-width">
+				<div class="top-bar">
+					<form id="todo-form">
+						<div class="inner">
+							<input 
+								id="input-box" 
+								name="main.app.todo" 
+								type="text" 
+								autocomplete="off"
+								placeholder="Things need to be done..."
+							>
+							<button id="add-todo">
+								<i class="ti ti-plus"></i>
+							</button>
+						</div>
+					</form>
+					<button id="change-theme" class="dark">
+						<div class="slider">
+							<i class="ti ti-sun"></i>
+							<i class="ti ti-moon"></i>
+						</div>
+					</button>
+				</div>
+		
+				<div class="fix-s" style="
+					position: relative;
+				">
+					<div class="fix" style="
+						position: absolute;
+						top: 0px;
+						left: 0px;
+						height: 14px;
+						width: 420px;
+						z-index: 999;
+						background-color: var(--input-box-color);
+						transition: background-color 120ms ease-in-out;
+					">
+					</div>
+					<h2 class="no-tasks" id="no-tasks-tag">
+						<i class="ti ti-mood-smile task-i"></i>
+						No Tasks Yet
+					</h2>
+					<ul id="tasks-list">	
+						<!-- Generated using JS -->
+					</ul>
+					<div class="fix" style="
+						position: absolute;
+						bottom: 0px;
+						left: 0px;
+						height: 14px;
+						width: 420px;
+						z-index: 999;
+						background-color: var(--input-box-color);
+						transition: background-color 120ms ease-in-out;
+					">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<script src="./assets/js/script.js"></script>
+	</body>
+	<!-- CREATED BY THE CODE NINJA ON GITHUB -->
+</html>
